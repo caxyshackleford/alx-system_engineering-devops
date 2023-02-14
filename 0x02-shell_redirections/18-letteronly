@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -d "cC"
+grep -i "⌃[a-z]" /etc/sshd_config
